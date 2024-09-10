@@ -19,6 +19,7 @@ transition: ease 0.3s
 &::after { 
 top: 110%;
 opacity: 1;
+transition: ease 0.3s
 }
 }
 
