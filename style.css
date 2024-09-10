@@ -1,0 +1,93 @@
+table {
+  zoom: 70%;
+  width: 100%;
+  text-align: center;
+}
+
+td{ 
+  width: 4.4%;
+  height: auto;
+  border-color: black;
+  border-radius: 7px;
+
+&:hover {
+transform: scale(1.3);
+z-index: 10;
+border-color: rgb(255, 255, 255);
+transition: ease 0.3s
+}
+&::after { 
+top: 110%;
+opacity: 1;
+}
+}
+
+div{
+text-align: left;
+}
+body{
+background-color: rgb(26, 26, 26);
+}
+.espaco{
+font-size: 40px;
+color: rgb(26, 26, 26);
+}
+.branquinho{
+color: white;
+font-size: xx-large;
+}
+.tabela{
+color: rgb(255, 255, 255);
+font-size: xx-large;
+}
+.naometais{
+background-color: lightgreen;
+color: rgb(22, 85, 22);
+}
+.alcalinos{
+background-color: orange;
+color: rgb(90, 67, 25);
+}
+.alcalinoterrosos{
+background-color: yellow;
+color: rgb(95, 95, 19);
+}
+.transicao{
+background-color: rgb(185, 95, 109);
+color: rgb(75, 16, 25);
+}
+.semimetais{
+background-color: rgb(51, 189, 108);
+color: rgb(18, 75, 42);
+}
+.representativos{
+background-color: rgb(120, 136, 120);
+color: rgb(21, 92, 21);
+}
+.halogenios{
+background-color: rgb(60, 212, 197);
+color: rgb(19, 77, 71);
+}
+.gasesnobres{
+background-color: rgb(62, 137, 197);
+color: rgb(15, 44, 68);
+}
+.lantanideos{
+background-color: rgb(189, 111, 103);
+color: rgb(78, 22, 16);
+}
+.actinideos{
+background-color: rgb(236, 139, 220);
+color: rgb(66, 15, 58);
+}
+.titulo{
+font-size: xx-large;
+color: white;
+}
+.legenda{
+font-size: larger;
+}
+.texto{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 800;
+}
